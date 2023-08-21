@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Result Display Page</title>
+</head>
+<body>
+<h2>Result Display Page</h2>
+<div>
+    <strong>Name:</strong> <span th:text="${name}"></span>
+</div>
+<h2> Delete user</h2>
+<form action="deletuser">
+<input name="id" placeholder="id" >
+    <button type="submit">delete</button>
+    <div>
+        <strong>Name:</strong> <span th:text="${name1}"></span>
+    </div>
+
+</form>
+</body>
+</html>
